@@ -5,7 +5,7 @@ import Navbar from '../src/components/Navbar'
 
 import LogoAluclass from '../src/images/logoAluclass.jpg'
 
-export default function Home() {
+export default function CatProdutos() {
   return (
     <div className={styles.container}>
       <Head>
@@ -17,13 +17,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="#">NFI - Nouvelles Fermetures</a>
+          Welcome to <a href="#">Categoria de Produtos</a>
         </h1>
-
-        <p className={styles.description}>
-        Site Web de développement{' '}
-          <code className={styles.code}></code>
-        </p>
       </main>
 
       <footer className={styles.footer}>
@@ -32,7 +27,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Development by{' '}
+          Powered by{' '}
           <span className={styles.logo}>
             <Image src={LogoAluclass} alt="Logo Aluclass" width={100} height={100} />
           </span>
